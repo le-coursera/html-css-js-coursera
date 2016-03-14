@@ -1,0 +1,65 @@
+* {
+	font-family: "Helvetica", sans-serif;
+}
+
+header .navbar {
+	border-radius: 0;
+	border-color: black;
+	border-width: 0 0 1px 0;
+	background-color: lightgreen;
+}
+
+.navbar .navbar-header {
+	margin: 0;
+	font-size: 24px;
+	position: relative;
+	padding: 10px 30px;
+}
+
+.navbar p {
+	position: relative;
+	margin-bottom: 0;
+}
+
+.navbar button {
+	margin: 0;
+}
+
+ul.navbar-nav {
+	margin: 0;
+}
+
+ul.navbar-nav li {
+	margin: 10px;
+}
+
+ul.navbar-nav hr {
+	margin: 0;
+	border-color: gray;
+}
+
+#collapsible-nav {
+	border-color: black;
+}
+
+.collapse, .collapsing {
+	background-color: powderblue;
+	padding: 0;
+}
+
+.menu-item {
+	margin: 20px;
+	padding: 15px;
+	border: solid 1px;
+	background-color: beige;
+}
+
+.menu-item-label {
+	margin-top: 0;
+}
+
+@media only screen and (min-width: 768px) {
+	#collapsible-nav {
+		background-color: lightgreen;
+	}
+}
